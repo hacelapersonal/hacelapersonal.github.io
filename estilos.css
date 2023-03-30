@@ -1,3 +1,93 @@
 body {
-    background-color:azure
-  }
+  background-color: #F8F8F8;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+h1, h2, h3, h4 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+/* Estilo de cajón para secciones */
+section {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.7);
+  margin: 40px auto;
+  padding: 40px;
+  max-width: 800px;
+}
+
+/* Estilo de sección de Información Personal */
+#informacion-personal {
+  background-color: #f5f5f5;
+}
+
+/* Estilo de sección de Educación */
+#Educaciíon {
+  background-color: #f7f7f7;
+}
+
+/* Estilo de sección de Experiencia Laboral */
+#ExperienciaLaboral {
+  background-color: #f5f5f5;
+}
+
+/* Estilo de sección de Habilidades y Competencias */
+#skills {
+  background-color: #f7f7f7;
+}
+
+/* Estilo para el header */
+header {
+  margin-left: 40px;
+  text-align: center;
+}
+#foto {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+#boton_foto {
+  display: block;
+  margin: 20px auto;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+footer {
+  background-color: #0074D9;
+  text-align: center;
+  padding: 20px;
+}
+
+.redes-sociales a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.redes-sociales a i {
+  margin-right: 5px;
+}
